@@ -11,6 +11,7 @@ int main()
         printf("Failed to initialize.");
         return -1;
     }
+    //0 = Okay/If function returns 0 then everything is okay.
     WSACleanup();
     printf("Okay");
     return 0;
