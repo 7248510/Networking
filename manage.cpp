@@ -4,10 +4,8 @@
 #include <windows.h>
 #pragma comment(lib, "IPHLPAPI.lib")
 #pragma comment(lib, "Ws2_32.lib")
-//IPHelper requires administrator privileges
+//Add and remove IP addresses. The gui equivelent is control panel -> Network settings -> Change adapters settings -> IPV4 configuration
 //cl manage.c && manage.exe
-//void addrtable();
-//void manage();
 int main()
 {
 	ULONG NTEContext = 0;
