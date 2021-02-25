@@ -1,5 +1,5 @@
 /*
-
+cl /EHsc -D_WIN32_WINNT=0x0601 /I C:\boost_1_75_0\ client.cpp /link /LIBPATH:C:\boost_1_75_0\stage\lib
 cl /EHsc /I C:\boost_1_75_0\ client.cpp /link /LIBPATH:C:\boost_1_75_0\stage\lib
 
 cl /EHsc /I C:\boost_1_75_0 client.cpp   ^
